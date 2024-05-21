@@ -9,8 +9,15 @@ The complete paper can be viewed at [https://doi.org/10.1109/PICICT53635.2021.00
 
 ## Instructions to run code
 
-Make sure you have the Rust compiler installed on your computer. See [Rust website](https://www.rust-lang.org/tools/install) for more details. Clone the repository, navigate to the project root folder, and type in the terminal:
+Make sure you have Matlab or Octave installed on your computer. See [Matlab website](https://www.mathworks.com/products/matlab.html) or [Octave website](https://octave.org/download) for more details. Clone the repository, and navigate to either the `knapsack` folder and type in the terminal for Matlab:
 
 ```console
-cargo run --release
+matlab main.m
 ```
+
+For octave type in the terminal:
+
+```console
+octave main.m
+```
+
