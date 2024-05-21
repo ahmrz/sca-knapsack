@@ -9,7 +9,7 @@ The complete paper can be viewed at [https://doi.org/10.1109/PICICT53635.2021.00
 
 ## Instructions to run code
 
-Make sure you have Matlab or Octave installed on your computer. See [Matlab website](https://www.mathworks.com/products/matlab.html) or [Octave website](https://octave.org/download) for more details. Clone the repository, and navigate to either the `knapsack` folder and type in the terminal for Matlab:
+Make sure you have Matlab or Octave installed on your computer. See [Matlab website](https://www.mathworks.com/products/matlab.html) or [Octave website](https://octave.org/download) for more details. Clone the repository, navigate to the `knapsack` folder, and type in the terminal for Matlab:
 
 ```console
 matlab main.m
@@ -20,4 +20,31 @@ For octave type in the terminal:
 ```console
 octave main.m
 ```
+
+
+## Citing the paper
+
+BibTeX:
+
+```console
+@inproceedings{mahfouz2021solving,
+  title={Solving 0--1 Knapsack Problems Using Sine-Cosine Algorithm},
+  author={Mahfouz, Khaled and Ali, Sharaz and Al-Betar, Mohammed Azmi and Awadallah, Mohammed A},
+  booktitle={2021 Palestinian international conference on information and communication technology (PICICT)},
+  pages={45--51},
+  year={2021},
+  organization={IEEE}
+}
+
+```
+
+
+
+| Type  | Citation |
+| :------------- | :------------- |
+| MLA  | Mahfouz, Khaled, et al. "Solving 0–1 Knapsack Problems Using Sine-Cosine Algorithm." _2021 Palestinian international conference on information and communication technology (PICICT)_. IEEE, 2021.  |
+| APA  | Mahfouz, K., Ali, S., Al-Betar, M. A., & Awadallah, M. A. (2021, September). Solving 0–1 Knapsack Problems Using Sine-Cosine Algorithm. In _2021 Palestinian international conference on information and communication technology (PICICT)_ (pp. 45-51). IEEE.  |
+| Chicago  | Mahfouz, Khaled, Sharaz Ali, Mohammed Azmi Al-Betar, and Mohammed A. Awadallah. "Solving 0–1 Knapsack Problems Using Sine-Cosine Algorithm." In _2021 Palestinian international conference on information and communication technology (PICICT)_, pp. 45-51. IEEE, 2021. |
+| Harvard | Mahfouz, K., Ali, S., Al-Betar, M.A. and Awadallah, M.A., 2021, September. Solving 0–1 Knapsack Problems Using Sine-Cosine Algorithm. In _2021 Palestinian international conference on information and communication technology (PICICT)_ (pp. 45-51). IEEE. |
+| Vancouver | Mahfouz K, Ali S, Al-Betar MA, Awadallah MA. Solving 0–1 Knapsack Problems Using Sine-Cosine Algorithm. In2021 Palestinian international conference on information and communication technology (PICICT) 2021 Sep 28 (pp. 45-51). IEEE. |
 
