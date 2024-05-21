@@ -15,7 +15,7 @@ Make sure you have Matlab or Octave installed on your computer. See [Matlab webs
 matlab main.m
 ```
 
-For octave type in the terminal:
+For Octave, type in the terminal:
 
 ```console
 octave main.m
