@@ -1,6 +1,6 @@
 # Solving 0–1 Knapsack Problems Using Sine-Cosine Algorithm
 
-This repository contains code used in the paper, ["Solving 0–1 Knapsack Problems Using Sine-Cosine Algorithm"](https://doi.org/10.1109/PICICT53635.2021.00020). The [Sine Cosine Algorithm (SCA)](https://doi.org/10.1016/j.knosys.2015.12.022), developed by Seyedali Mirjalili, belongs to the class of metaheuristic algorithms used to solve optimization problems. In this paper, a modified binary variation of SCA was designed to solve multiple 0-1 knapsack problems, and the performance was compared with other metaheuristic algorithms.
+This repository contains code used in the paper, ["Solving 0–1 Knapsack Problems Using Sine-Cosine Algorithm"](https://doi.org/10.1109/PICICT53635.2021.00020). The [Sine Cosine Algorithm (SCA)](https://doi.org/10.1016/j.knosys.2015.12.022), developed by Seyedali Mirjalili [1], belongs to the class of metaheuristic algorithms used to solve optimization problems. In this paper, a modified binary variation of SCA was designed to solve multiple 0-1 knapsack problems, and the performance was compared with other metaheuristic algorithms.
 
 ## Abstract
 Optimization is no easy task and from a computational point of view, it often involves scanning a large search space to find the best solution that adheres to all the constraints and desired specifications. Designing a customized algorithm to solve several optimization problems is also a challenging task, therefore scientists and engineers utilize metaheuristic algorithms that can provide an optimal solution within a reasonable time. This optimal solution may or may not be the best solution in the search space, but it is usually good enough to satisfy the requirements without wasting computational resources or time. The 0–1 knapsack problem is a constraint-based optimization problem in which a number of items have to be packed into a container by maximizing the value of the items in the container while also adhering to the weight limit of the container. In this paper, the sine-cosine algorithm (SCA) is adopted to solve 0–1 knapsack problems. The proposed algorithm is called the binary sine-cosine algorithm (BSCA). Due to the binary nature of the 0–1 knapsack problem, the SCA is manipulated using a mapping function. The performance of the proposed BSCA is evaluated using 15 well-known datasets. Furthermore, the performance of the proposed BSCA is compared with other comparative algorithms (i.e., GA, PSO, and BFPA) from the literature using the same datasets. It can be observed from the results that the performance of the proposed BSCA is similar to other algorithms by obtaining the optimal results on 10 datasets. The results of the proposed BSCA are convergent with others for the remaining five datasets.
@@ -9,7 +9,7 @@ Optimization is no easy task and from a computational point of view, it often in
 
 ## Datasets used
 
-Fifteen 0-1 knapsack problems labelled L1 to L15 are used in this repository. L1 to L10 were extracted from low-dimensional instances found at [1], [2] and L11 to L15 from [3].
+Fifteen 0-1 knapsack problems labelled L1 to L15 are used in this repository. L1 to L10 were extracted from low-dimensional instances found at [2], [3] and L11 to L15 from [4].
 
 | Instance | Dimension | Optimum solution | Capacity | Weights | Values |
 | :------------- | :------------- | :------------- | :------------- | :------------- | :------------- |
@@ -75,6 +75,7 @@ BibTeX:
 
 ## References
 
-1. D. Kreher and D. Simpson, _Combinatorial Algorithms_. CRC Press, 1998.
-2. S. Martello, “Knapsack problems: algorithms and computer implementations,” _Wiley-Interscience series in discrete mathematics and optimization_, 1990.
-3. A. J. Kulkarni, G. Krishnasamy, and A. Abraham, “Solution to 0–1 knapsack problem using cohort intelligence algorithm,” in _Cohort Intelligence: A Socio-inspired Optimization Method_. Springer, 2017, pp. 55–74.
+1. S. Mirjalili, 2016. "SCA: a sine cosine algorithm for solving optimization problems." _Knowledge-based systems_ 96, pp. 120-133.
+2. D. Kreher and D. Simpson, 1998. _Combinatorial Algorithms_. CRC Press.
+3. S. Martello, 1990. “Knapsack problems: algorithms and computer implementations” _Wiley-Interscience series in discrete mathematics and optimization_.
+4. A. J. Kulkarni, G. Krishnasamy, and A. Abraham, 2017. “Solution to 0–1 knapsack problem using cohort intelligence algorithm” in _Cohort Intelligence: A Socio-inspired Optimization Method_. Springer, pp. 55–74.
